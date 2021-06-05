@@ -63,6 +63,18 @@ h1 {
     font-size: 20px;
     letter-spacing: .-05em;
 }
+.titulo-word-spacing {
+    font-size: 30px;
+    font-weight: 900;
+}
+.espaciado-word-ancho {
+    font-size: 20px;
+    word-spacing: .2em;
+}
+.espaciado-word.angosto {
+    font-size: 20px;
+    word-spacing: .-03em;
+}
 
 /* lora-500italic - latin */
 @font-face {
