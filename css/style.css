@@ -31,6 +31,14 @@ h1 {
     font-size: 60px;
     font-weight: 500;
 }
+.enfatizado {
+    font-style:italic;
+    font-weight: 900;
+    font-size: 40px;
+}
+.ejemplo-span {
+    font-size: 30px;
+}
 /* lora-500italic - latin */
 @font-face {
     font-family: 'Lora';
