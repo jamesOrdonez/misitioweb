@@ -79,6 +79,14 @@ h1 {
     font-size: 20px;
     word-spacing: .-03em;
 }
+.titulo-line-height {
+    font-size: 30px;
+    font-weight: 900;
+}
+.espaciado-line-ancho {
+    font-size: 20px;
+    line-height: 4em;
+}
 
 /* lora-500italic - latin */
 @font-face {
