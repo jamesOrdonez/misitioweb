@@ -55,6 +55,14 @@ h1 {
     font-size: 20px;
     color: #a0522d;
 }
+.espaciado-ancho {
+    letter-spacing: .2em;
+    font-size: 20px;
+}
+.espaciado-angosto {
+    font-size: 20px;
+    letter-spacing: .-05em;
+}
 
 /* lora-500italic - latin */
 @font-face {
