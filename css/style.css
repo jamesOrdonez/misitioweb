@@ -38,7 +38,24 @@ h1 {
 }
 .ejemplo-span {
     font-size: 30px;
+
 }
+.colores {
+    font-size: 30px;
+}
+.color-nombre {
+    color: aquamarine;
+    font-size: 20px;
+}
+.color-rgb {
+    font-size: 20px;
+    color: rgb(50, 20, 200)
+}
+.color-hexadecimal {
+    font-size: 20px;
+    color: #a0522d;
+}
+
 /* lora-500italic - latin */
 @font-face {
     font-family: 'Lora';
