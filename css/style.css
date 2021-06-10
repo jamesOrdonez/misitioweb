@@ -87,6 +87,19 @@ h1 {
     font-size: 20px;
     line-height: 4em;
 }
+.espaciado-line-angosto {
+    font-size: 20px;
+    line-height: .5em;
+}
+.color-web {
+    font-size: 30px;
+    font-weight: 900;
+}
+.color-cielo {
+    font-size: 20px;
+    color: rgb(57, 149, 216);
+    
+}
 
 /* lora-500italic - latin */
 @font-face {
