@@ -1,0 +1,24 @@
+.colores {
+    font-size: 30px;
+}
+.color-nombre {
+    color: aquamarine;
+    font-size: 20px;
+}
+.color-rgb {
+    font-size: 20px;
+    color: rgb(50, 20, 200)
+}
+.color-hexadecimal {
+    font-size: 20px;
+    color: #a0522d;
+}
+.color-web {
+    font-size: 30px;
+    font-weight: 900;
+}
+.color-cielo {
+    font-size: 20px;
+    color: rgb(57, 149, 216);
+    
+}
