@@ -50,7 +50,7 @@ h1 {
 }
 .espaciado-angosto {
     font-size: 20px;
-    letter-spacing: .-05em;
+    letter-spacing:-05em;
 }
 .titulo-word-spacing {
     font-size: 30px;
@@ -62,7 +62,7 @@ h1 {
 }
 .espaciado-word.angosto {
     font-size: 20px;
-    word-spacing: .-03em;
+    word-spacing:-03em;
 }
 .titulo-line-height {
     font-size: 30px;
