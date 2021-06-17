@@ -1,0 +1,12 @@
+.texto-derecha {
+    text-align: right;
+}
+.texto-izquierda {
+    text-align: left;
+}
+.texto-centrado {
+    text-align: center;
+}
+.texto-justificado {
+    text-align: justify;
+}
