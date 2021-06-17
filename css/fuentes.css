@@ -1,28 +1,28 @@
 h1 { 
     font-family: 'Courier New', Courier, monospace;
 }
-.fuente-mediana{
+.fuente-mediana {
     font-size: 30px   
 }
-.fuente-grande{
+.fuente-grande {
     font-size: 50px;
 }
-.peso_fuente{
+.peso_fuente {
     font-size: 20px;
 }
-.fuente-500{
+.fuente-500 {
     font-weight: 500;
     font-size: 20px;
 }
-.fuente-900{
+.fuente-900 {
     font-weight: 900;
     font-size: 20px;
 }
-.estilo-italico{
+.estilo-italico {
     font-style: italic;
     font-size: 20px;
 }
-.fuente-google{
+.fuente-google {
     font-family: 'EB Garamond', serif;
     font-size: 20px;
 }
