@@ -3,3 +3,10 @@
    text-align: justify;
    font-size: 1,5em;
 }
+.ejemplo-bordes {
+   border: 3px 4px solid;
+   border-color: aquamarine;
+   text-align: justify;
+   font-size: 1,5em;
+   
+}
