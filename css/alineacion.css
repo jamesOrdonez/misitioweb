@@ -10,3 +10,20 @@
 .texto-justificado {
     text-align: justify;
 }
+.enfatizado {
+    font-style: italic;
+    font-size: 4em;
+    font-family: helvetica;
+ } 
+ .indentacion {
+     text-indent: 4em;
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     font-size: 1em;
+ }
+ blockquote {
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     font-size: 2em;
+     color: darkcyan;
+     text-align: right;
+ }
+ 

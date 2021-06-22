@@ -1,12 +1,66 @@
+body {
+   margin: 1em 8em;
+}
 .ejemplo-margen {
    margin: 1em 8em;
    text-align: justify;
    font-size: 1,5em;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   line-height: 1.5em;
 }
-.ejemplo-bordes {
-   border: 3px 4px solid;
-   border-color: aquamarine;
-   text-align: justify;
+
+.bordes {
    font-size: 1,5em;
-   
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   text-align: justify;
+   border: 2px solid aquamarine;
+   margin-top: 2.5em;
+   margin-bottom: 2.5em;  
+}
+.borde-lados {
+   border-left: 2px solid navy;
+   border-right: 2px solid navy;
+   font-size: 1em;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   text-align: justify;
+   margin-top: 2.5em;
+   margin-bottom: 2.5em; 
+}
+.borde-superior {
+   border-top: 2px solid gold;
+   border-bottom:  2px solid gold;
+   text-align: justify;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   margin-top: 2.5em;
+   margin-bottom: 2.5em; 
+}
+.Padding {
+   padding: 1.3em;
+   border: 2px solid salmon;
+   background-color: salmon;
+   text-align: justify;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   margin-top: 2.5em;
+   margin-bottom: 2.5em; 
+}
+.padding-1 {
+   border-left: 2px solid navy;
+   padding-left: 1.3em;
+   border-right: 2px solid navy;
+   padding-right: 1.3em;
+   font-size: 1em;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   text-align: justify;
+   margin-top: 2.5em;
+   margin-bottom: 2.5em; 
+}
+.padding-2 {
+   border-top: 2px solid gold;
+   padding-top: 1.3em;
+   border-bottom:  2px solid gold;
+   padding-bottom: 1.3em;
+   text-align: justify;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   margin-top: 2.5em;
+   margin-bottom: 2.5em; 
 }
