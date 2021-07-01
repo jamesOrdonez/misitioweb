@@ -1,6 +1,9 @@
 body {
    margin: 1em 8em;
 }
+.titulo_lista {
+   text-align: left;
+}
 .ejemplo-margen {
    margin: 1em 8em;
    text-align: justify;
