@@ -1,3 +1,28 @@
 h1  {
     text-align: center;
 }
+table {
+    border-collapse: collapse;
+;
+    font-size: 1.6em;
+    margin: 0 auto;
+}
+td, th { 
+    background-color: rgb(155, 155, 155);
+    text-align: center;
+    padding: 0.8em 0.5em;
+    border: 1px solid ;
+    
+}
+.color-encabezado {
+    background-color:darkcyan
+}
+.color-platano {
+    background-color: rgb(255, 255,53);
+}
+.color-cereza {
+    background-color: rgb(221, 49, 99);
+}
+.color-fresa {
+    background-color: rgb(232, 40, 55);
+}
