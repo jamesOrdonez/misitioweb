@@ -1,0 +1,25 @@
+h1 {
+    text-align: center;
+}
+fieldset {
+    width: 30%;
+    display: block;
+    margin: 0 auto;
+    background-color: lime;
+    border-radius: 8px ;
+    height: 850px;
+    border: 10px solid lime;
+    font-size: 1.3em;
+    line-height: 1.8em;
+}
+input {
+    font-size: 1em;
+    line-height: 1em;
+}
+.formulario {
+    width: 70%;
+    margin: 0 auto;
+}
+input[type=checkbox] {
+    padding-right: .8em;
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/formulario.css">
+    <title>formulario</title>
+</head>
+<body>
+    <h1>formulario de entrada </h1>
+    <H1>banco XYZ</H1><br>
+    <form action="" method="POST">
+        <fieldset>
+            <div class="formulario">
+      <label>Nombre</label><br>
+      <input type="text" name="Nombres"><br>
+      <label>Apellido</label><br>
+      <input type="text" name="Apellidos"><br>
+      <label>elementos ingresados </label><br>
+      <textarea name="elementos ingresados" cols="35" rows="5"></textarea><br>
+      <label>Seleccione jornada</label><br>
+      <label><input type="checkbox" value="mañana">mañana </label><br>
+      <label><input type="checkbox" value="tarde">tarde </label><br>
+      <label><input type="checkbox" value="noche">noche </label><br><br>
+      <label>Tipo de accion a realizar</label><br>
+      <label><input type="radio" name="accion" value="transaccion"> transaccion</label><br>
+      <label><input type="radio" name="accion"value="cobro"> cobro</label><br>
+      <label><input type="radio" name="accion"value="retiro_en_efectivo"> retiro en efectivo</label><br>
+      <label><input type="radio" name="accion"value="pago_en_efectivo"> pago en efectivo</label><br><br>
+      <label>Persona que lo atendió</label><br>
+       <select name="persona_que_lo_atendio">
+           <option value="Saul_Vasquez"><label>Saul Vasquez</label></option>
+           <option value="Lina_Rodriguez"><label>Lina Rodriguez</label></option>
+           <option value="Paula_Bravo"><label>Paula Bravo</label></option>
+           <option value="Maria_Sotelo"><label>Maria Sotelo</label></option>
+       </select><br><br>
+       <input type="submit" value="Enviar">
+            </div>
+    </fieldset>
+   </form>
+</body>
+</html>
