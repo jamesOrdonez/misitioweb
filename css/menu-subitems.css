@@ -1,0 +1,41 @@
+* {
+    margin: 0%;
+    padding: 0;
+}
+nav {
+    cursor: pointer;
+    padding: 0%;
+}
+ul {
+    list-style: none;
+    background: rgb(50, 73, 199);
+    width: 100%;
+    position:absolute; 
+}
+a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 0% 2.5em;
+}
+.item {
+    line-height: 3em;
+    display: inline-block;
+    position: relative;
+    text-align: right;
+}
+a:hover {
+    background: rgb(32, 50, 151);
+    transition: all .3s;
+}
+.sub-item {
+    text-align: center;
+    transition: all 1.5s;
+    max-height: 0%;
+    background:rgb(50, 73, 199);
+}
+.item:hover .sub-item {
+    display: block;
+    max-height: 500px;
+    border-bottom: 1px solid white;
+}
