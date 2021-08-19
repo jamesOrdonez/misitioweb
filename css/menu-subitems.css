@@ -33,9 +33,10 @@ a:hover {
     transition: all 1.5s;
     max-height: 0%;
     background:rgb(50, 73, 199);
+    overflow: hidden;
 }
 .item:hover .sub-item {
     display: block;
     max-height: 500px;
-    border-bottom: 1px solid white;
+    border-bottom: 1px rgb(32, 50, 151);
 }
