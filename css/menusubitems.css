@@ -9,6 +9,31 @@ nav {
 ul {
     list-style: none;
     position: absolute;
-    background: rgb(25, 25, 172);
+    background:rgb(23, 90, 167);
     width: 100%;
+    text-align: right;
+}
+li {
+    position: relative;
+    padding: 20px;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+.subitem {
+    display: block;
+    position: absolute;
+    background:black ;
+    top: 20px;
+    overflow: visible;
+    border-bottom: white;
+    color: white;
+}
+.subitem:hover {
+    display: block;
+    overflow: visible;
+    position: absolute;
+    height: 101%;
+    background:rgb(23, 90, 167);
 }
