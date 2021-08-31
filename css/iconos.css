@@ -8,6 +8,9 @@ li {
     font-size: 1.4em;
     border-top: 1px solid black;
 }
+a {
+    text-decoration: none;
+}
 nav {
     position: fixed;
     height: 100%;

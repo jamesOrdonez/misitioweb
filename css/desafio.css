@@ -10,13 +10,13 @@
     font-size: 1.2em;
     margin-left: 6px;
 }
-a {
+.menu1 {
     text-decoration: none;
     border-right: 1px solid rgb(255, 129, 56);
     margin-right: 0.2em;
     padding-right: 0.6em;
 }
-a:hover {
+.menu1:hover {
     transition: all;
     background: rgb(229, 229, 229);
 }
@@ -26,6 +26,10 @@ a:hover {
     padding: 10px;
     font-size: 1.2em;
     margin-top: 8px;
+    width: 130%;
+}
+.nav2 {
+    width: 130%;
 }
 .menu2 {
     background-color: rgb(93, 93, 93);
@@ -33,6 +37,8 @@ a:hover {
     border-bottom: 1px solid  rgb(93, 93, 93) ;
     margin-top: 2em;
     padding: 0.5em;
+    text-decoration: none;
+    width: 130%;
 }
 .menu2:hover {
     transition: all;
