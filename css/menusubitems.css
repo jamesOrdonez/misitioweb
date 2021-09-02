@@ -3,37 +3,42 @@
     padding: 0;
 }
 nav {
-    cursor: pointer;
-    padding: 0;
+    background: rgb(23,90,167);
+    width: 100%;
 }
 ul {
     list-style: none;
-    position: absolute;
-    background:rgb(23, 90, 167);
-    width: 100%;
     text-align: right;
 }
 li {
+    display: inline-block;
     position: relative;
-    padding: 20px;
 }
-a {
-    text-decoration: none;
+nav ul li:hover {
+    background: silver;
+}
+nav ul li a {
     color: white;
+    font-size: 1.3em;
+    text-decoration: none;
+    padding: 20px;
+    display: block;
 }
 .subitem {
-    display: block;
     position: absolute;
-    background:black ;
-    top: 20px;
-    overflow: visible;
-    border-bottom: white;
-    color: white;
+    display: none;
+    background:rgb(23,90,190);
+    text-align: left;
 }
-.subitem:hover {
+nav ul li .subitem li {
+    display:block;
+    border-bottom: 1px solid rgb(255, 255, 255,.5);
+}
+nav ul li .subitem li a {
     display: block;
-    overflow: visible;
-    position: absolute;
-    height: 101%;
-    background:rgb(23, 90, 167);
+}
+nav ul li:hover .subitem {
+    display: block;
+    width: 100%;
+    text-align: left;
 }

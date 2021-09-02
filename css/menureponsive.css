@@ -35,7 +35,6 @@ nav ul li a {
     display: none;
     background:rgb(0, 139, 150);
     text-align: left;
-    margin-top: 5px;
 }
 nav ul li .children li {
     display:block;
