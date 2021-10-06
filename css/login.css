@@ -42,6 +42,7 @@ body {
     margin: 20px 0;
 }
 .form-group {
+    border: none;
     border-bottom: solid 3px black;
     color: blue;
     font-size: 1.3em;
