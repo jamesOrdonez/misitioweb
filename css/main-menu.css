@@ -2,14 +2,29 @@
     margin: 0%;
     padding: 0%;
 }
+body {
+    text-align: right;
+    padding-bottom: -100;
+}
 ul {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    text-align: left;
     list-style: none;
-    text-align: center;
+    margin-left: 10px;
+    overflow-y:scroll;
     font-size: 1.3em;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 3px ;
+    box-shadow: 2px 2px 10px rgb(28,28,28,.25);
 }
 a {
     text-decoration: none;
-    color: white;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
 }
 li {
     display: inline-block;
@@ -17,10 +32,54 @@ li {
 }
 
 nav {
-    background-color: blue;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     width: 100%;
     position: relative;
+    overflow: auto;
+    height: calc(100%-60px);
+} 
+.menu-box {
+    position: fixed;
+    top: 0;
+    width: 160px;
+    padding-left: 20px;
+    height: 60px;
+    border-bottom: 1px solid rgb(96,96,96,.8);
+}
+#side-header {
+    position: fixed;
+    top :0;
+    width: 220px;
+    height: 100%;
+}
+.menu-box-invisible {
+    margin-left: 240px;
+    margin-right: 90px;
+}.nav.mostrarNav {
+    left: 0;
+}
+@media only screen and (max-width:600px) {
+    .bt.menu {
+        width: 120px;
+        overflow-x: hidden;
+    }
+    h1 {
+        margin-top: 60px;
+    }
+    .menu-box-invisible {
+        margin-top: 60px;
+    }
+    nav {
+        width: 100%;
+        position: fixed;
+        right: 100%;
+        font-size: 1.4em;
+        overflow-x: hidden;
+    }
+    ul {
+        width: 98%;
+        overflow-x: hidden;
+    }
 }
 
 
