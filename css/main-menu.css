@@ -3,54 +3,24 @@
     padding: 0%;
 }
 body {
-    text-align: center;
+  /*   text-align: center; */
     padding-bottom: 20;
 }
-/* ul {
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    width: 200px;
-    text-align: left;
-    list-style: none;
-    margin-left: 10px;
-    /* overflow-y:scroll; */
-   /* font-size: 1.3em;
-    padding: 5px;
-    margin: 5px;
-    border-radius: 3px ;
-    box-shadow: 2px 2px 10px rgb(28,28,28,.25);
-} */
 h1 {
     text-align: right;
-}
-
-/* a {
-    text-decoration: none;
-    color: black;
-    font-family: Arial, Helvetica, sans-serif;
-}
-li {
-    display: inline-block;
-    padding: 14px;
-}
-
-nav {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    width: 100%;
-    position: relative;
-    overflow: auto;
-    height: calc(100%-60px);
-}  */
-* {
-    margin: 0%;
-    padding: 0%;
 }
 li {
     list-style: none;
     padding: 20px;
     font-size: 1.4em;
     border-top: 1px solid black;
+    flex-direction: block;
+}
+ul {
+    height: 100vh;
+    list-style: none;
+    text-align: center;
+    display: block;
 }
 a {
     text-decoration: none;
@@ -58,19 +28,19 @@ a {
 }
 nav {
     position: fixed;
-    height: 100%;
-    top: 0%;
+    height: 100vh;
+    top: 70px;
     background-color: blue;
     width: 290px;
-    overflow: auto;
+    overflow-x: auto;
 }
 .menu-box {
     position: fixed;
     top: 0;
-    width: 160px;
+    width: 100px;
     padding-left: 20px;
     height: 60px;
-    border-bottom: 1px solid rgb(96,96,96,.8);
+
 }
 #side-header {
     position: fixed;
@@ -78,11 +48,36 @@ nav {
     width: 220px;
     height: 100%;
 }
-.menu-box-invisible {
-    margin-left: 240px;
-    margin-right: 90px;
-}.nav.mostrarNav {
+
+.nav.mostrarNav {
     left: 0;
+}
+.hamburger-menu {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+}
+.content-page {
+    display: grid;
+    width: 100%;
+    grid-template: "nav-page","content-page" auto /
+                   300px        auto;
+                   justify-content: start;
+}
+.nav-page {
+    grid-area: nav-page;
+}
+.content-page {
+    grid-area: content-page;
+
+}
+li:hover {
+    background-color: rgb(96,96,96,.8);
+    color: white;
+    cursor: pointer;
+}
+.content-main {
+    margin: 3em;
 }
 @media only screen and (max-width:600px) {
     .bt.menu {
