@@ -33,6 +33,7 @@ nav {
     background-color: blue;
     width: 290px;
     overflow-x: auto;
+    left: -100%;
 }
 .menu-box {
     position: fixed;
@@ -57,7 +58,7 @@ nav {
     top: 20px;
     left: 20px;
 }
-.content-page {
+.conteint-page {
     display: grid;
     width: 100%;
     grid-template: "nav-page","content-page" auto /
@@ -67,7 +68,7 @@ nav {
 .nav-page {
     grid-area: nav-page;
 }
-.content-page {
+.conteint-page {
     grid-area: content-page;
 
 }
@@ -76,9 +77,13 @@ li:hover {
     color: white;
     cursor: pointer;
 }
-.content-main {
+.conteint-main {
     margin: 3em;
 }
+nav.mostrarNav {
+    left: 0;
+}
+
 @media only screen and (max-width:600px) {
     .bt.menu {
         width: 120px;
