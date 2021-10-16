@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.logo {
+    /*background: url("../img/SPA-modify.png");*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+section {
+    background: url("../img/img-spa-origin.png");
+    margin-top: 65px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 400px;
+}
+.articles {
+    display: grid;
+    width: 90%;
+    margin: 50px auto;
+    grid-template-columns: repeat(3,400px);
+    gap: 20px;
+    grid-template: "masajes      piedras     peluqueria"   auto
+                   "depilacion   productos   aceites"      auto /
+                   400px         400px       400px;
+    
+    justify-content: center;
+}
+ul {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    width: 100%;
+    height: 70px;
+}
+/* .articles {
+    grid-template-columns: 1fr, auto;
+    gap: 40px;
+
+    grid-template: "masajes"      auto
+                   "piedras"      auto
+                   "peluqueria"   auto
+                   "depilacion"   auto
+                   "productos"    auto
+                   "aceites"      auto /
+                   minmax(auto, 400px);
+} */
+.img-article {
+    width: 90%;
+}
