@@ -1,39 +1,82 @@
-* {
+  * {
     margin: 0%;
     padding: 0%;
 }
 body {
-  /*   text-align: center; */
-    padding-bottom: 20;
-}
-h1 {
-    text-align: right;
-}
-li {
-    list-style: none;
-    padding: 20px;
-    font-size: 1.4em;
-    border-top: 1px solid black;
-    flex-direction: block;
-}
-ul {
-    height: 100vh;
-    list-style: none;
-    text-align: center;
-    display: block;
-}
-a {
-    text-decoration: none;
+    background-image: url(../img/tigre_con_mariposas.jpg);
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: fixed fixed;
+    background-attachment: fixed;
     color: white;
 }
-nav {
+h1 {
+    text-align: left;
+}
+nav{
+    height: calc(100% - 60px);
     position: fixed;
-    height: 100vh;
-    top: 70px;
-    background-color: blue;
-    width: 290px;
-    overflow-x: auto;
+    top: 60px;
     left: -100%;
+    overflow-y: auto;
+    border-top: 1px solid white;
+    transition: all .4s ease-in-out;
+    background-color: rgb(41,128,137);
+}
+ul{
+    list-style: none;
+    display: block;
+    font-size: 1.3em;
+    text-align: left;
+
+}
+li{
+    padding: 0 10px 0 10px;
+}
+a{
+    color: white;
+    padding: 15px;
+    text-decoration: none;
+    display: block;
+    border-bottom: 1px solid white;
+    text-decoration: none;
+}
+.fa-house-user{
+    margin-right: 10px;
+}
+.fa-font {
+    margin-right: 10px;
+}
+.fa-palette {
+    margin-right: 10px;
+}
+.fa-list {
+    margin-right: 10px;
+}
+.fa-align-center {
+    margin-right: 10px;
+}
+.fa-images {
+    margin-right: 10px; 
+}
+.fa-table {
+    margin-right: 10px; 
+}
+.fa-wpforms {
+    margin-right: 10px; 
+}
+.fa-box {
+    margin-right: 10px; 
+}
+.fa-arrows-alt {
+    margin-right: 10px; 
+}
+.fa-chevron-down {
+    margin-right: 10px; 
+}
+.fa-icons {
+    margin-right: 10px; 
 }
 .menu-box {
     position: fixed;
@@ -54,6 +97,9 @@ nav {
     left: 0;
 }
 .hamburger-menu {
+    color: rgb(41,128,137);
+    font-weight: 900;
+    font-size: 25px;
     position: fixed;
     top: 20px;
     left: 20px;
@@ -73,7 +119,8 @@ nav {
 
 }
 li:hover {
-    background-color: rgb(96,96,96,.8);
+    background-color: rgb(173, 84, 12);
+    font-weight: 400;
     color: white;
     cursor: pointer;
 }

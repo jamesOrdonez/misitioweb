@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.container-style {
+    background-color: dodgerblue;
+    color: white;
+    font-size: 1.4em;
+    text-align: center;
+    font-weight: 600;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    height: 5px;
+}
+.col-style {
+    border: 1px solid rgba(48,48,48,.8);
+}
+.row-style {
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+.btn-style {
+    cursor: pointer;
+    font-size: 1.5em;
+    width: 100%;
+    padding: 12px;
+    margin-left: 500px; 
+}
+li {
+    list-style: none;
+    padding: 55px;
+    font-size: 1.4em;
+    border-top: 1px solid black;
+}
+a {
+    text-decoration: none;
+}
+nav {
+    position: fixed;
+    height: 100%;
+    top: 0%;
+    background-color: aqua;
+    width: 290px;
+    overflow: auto;
+}
