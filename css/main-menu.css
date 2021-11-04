@@ -119,9 +119,9 @@ a{
 
 }
 li:hover {
-    background-color: rgb(255, 187, 0);
+    background-color: rgb(173, 84, 12);
     font-weight: 400;
-    color: black;
+    color: white;
     cursor: pointer;
 }
 .conteint-main {
