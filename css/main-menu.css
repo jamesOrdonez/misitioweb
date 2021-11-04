@@ -3,7 +3,7 @@
     padding: 0%;
 }
 body {
-    background-image: url(../img/tigre_con_mariposas.jpg);
+    background-image: url(../img/atardecer2-original.jpg);
     width: 100%;
     background-size: cover;
     background-repeat: no-repeat;
@@ -119,9 +119,9 @@ a{
 
 }
 li:hover {
-    background-color: rgb(173, 84, 12);
+    background-color: rgb(255, 187, 0);
     font-weight: 400;
-    color: white;
+    color: black;
     cursor: pointer;
 }
 .conteint-main {
