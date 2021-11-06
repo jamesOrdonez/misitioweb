@@ -3,7 +3,7 @@
     padding: 0%;
 }
 body {
-    background-image: url(../img/atardecer2-original.jpg);
+    background-image: url(../img/arbol.jpg);
     width: 100%;
     background-size: cover;
     background-repeat: no-repeat;
@@ -22,7 +22,7 @@ nav{
     overflow-y: auto;
     border-top: 1px solid white;
     transition: all .4s ease-in-out;
-    background-color: rgb(41,128,137);
+    background-color: rgb(55,30,72);
 }
 ul{
     list-style: none;
@@ -97,7 +97,7 @@ a{
     left: 0;
 }
 .hamburger-menu {
-    color: rgb(41,128,137);
+    color: whitesmoke;
     font-weight: 900;
     font-size: 25px;
     position: fixed;
@@ -119,7 +119,7 @@ a{
 
 }
 li:hover {
-    background-color: rgb(173, 84, 12);
+    background-color: black;
     font-weight: 400;
     color: white;
     cursor: pointer;
