@@ -3,13 +3,15 @@
 >.......Mayor que
 <.......Menor que
 >=......Mayor o igual que 
-<=......Menor o iguakl que 
+<=......Menor o igual que 
 !=......Distinto sin importar tipo de dato
 ==......Igual sin importar tipo de dato
 ===.....Estrictamente igual incluytendo tipo de dato
 !==.....Distinto(si no son estrictamente iguales) */
 
 /* quien ocupo el primer puesto */
+console.log("NOTAS");
+console.log(" ");
 var nota1 = 8.1;
 var nota2 = 8.5;
 
