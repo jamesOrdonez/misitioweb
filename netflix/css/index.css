@@ -2,7 +2,71 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+body {
     background-color: black;
+}
+a {
+    text-decoration: none;
+    color: whitesmoke;
+    margin-left: 2px solid red;
+}
+.menu {
+    margin: 40px;
+}
+.head {
+    width: 100%;
+    display: flex;
+    align-items: right;
+    align-content: center;
+}
+li {
+    color: white;
+    font-size: 20px;
+    display: inline-block;
+    padding: 10px;
+    
+}
+li:hover {
+    background-color: red;
+    border-radius: 10px;
+}
+ul {
+    display: inline-block;
+}
+.logo {
+    width: 120px;
+    height: 120px;
+}
+p{
+    color: white;
+    align-items: left;
+}
+nav {
+    height: 70%;
+    background-color: black;
+    align-content: center;
+}
+.body {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+.texto {
+    font-size: 30px;
+    font-family: helvetica;
+    font-weight: 900;
+    margin-left: 30px;
+    text-align: center;
+    color: red;
+}
+.cuerpo_p {
+    font-size: 20px;
+    line-height: 25px;
+    font-family: helvetica;
+    font-weight: 500;
+    text-align: justify;
+    margin: 25px;
 }
 .img-cinta {
     width: 450px;
@@ -11,14 +75,42 @@
     margin-left: 10px;
 }
 .box-img-principal {
-    display: block;
+    display: inline;
     display:flex ;
-    justify-content: right;
+    justify-content: left;
     width: 100%;
 }
 .img-principal {
     width: 750px;
+    height:450px;
 }
 .cinta-movies {
     margin-top: 20px;
+}
+.btn {
+    width: 100%;
+    height: 50px;
+}
+.btnver {
+    width: 90px;
+    height: 50px;
+    color: black;
+    background-color:red;
+    border-radius: 15px;    
+    font-size: 20px;
+    font-weight: 700;
+    font-family: helvetica;
+}
+.btnmt {
+    width: 150px;
+    height: 50px;
+    color: black;
+    background-color:red;
+    border-radius: 15px;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: helvetica;
+}
+.btnver:hover {
+    background-color: rgb(194, 36, 36);
 }

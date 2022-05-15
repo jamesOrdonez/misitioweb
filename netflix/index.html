@@ -8,17 +8,54 @@
     <title>netflix</title>
 </head>
 <body>
-    <div class="box-img-principal">
-        <img  id="imgPrincipal" class="img-principal" src="img/vikingos_II.jpg" alt="vikingos">
+    <div class="head">
+        <img src="img/logo_netflix.png" class="logo">
+        <nav class="menu">
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Series</a></li>
+                <li><a href="#">Opciones</a></li>
+            </ul>
+        </nav>
     </div>
+       
+    <div class="box-img-principal"> 
+        <img  id="imgPrincipal" class="img-principal" src="img/vikingos_II.jpg" alt="vikingos">
+        <div class="body">
+            <p id="textoPrincipal" class="texto">VIKINGOS</p><br>
+            <p  id="cuerpoP" class="cuerpo_p">  Serie lanzada el 25 de febrero de 2021; tiene un total de 
+                250 capítulos en 3 temporadas, se espera la llegada de una 4 tempoprada el 28 de Mayo del 2022. 
+                Fue acreedor de un premio Oscar a mejor serie en 2021.</p>
+                <div class="btn">
+                <button class="btnver"> Ver</button>
+                <button class="btnmt"> Programar para mas tarde</button>
+                </div>
+        </div>
+    </div>
+
     <div class="cinta-movies">
-        <img class="img-cinta" onmouseover = "intercambiarImagen('img/vikingos_II.jpg');"src="img/vikingos.png"  alt="vikingos" id="vikingo">
-        <img class="img-cinta" onmouseover="intercambiarImagen('img/elite_II.jpg');" src="img/elite_II.png"  alt="elite" id="elite">
-        <img class="img-cinta" onmouseover="intercambiarImagen('img/daredevil-II.jpg');"  src="img/daredevil-II.png"  alt="daredevil" id="daredevil">
-        <img class="img-cinta" onmouseover="intercambiarImagen('img/king-richard-II.jpg');" src="img/king-richard.png"  alt="king"> 
-        <img class="img-cinta" onmouseover="intercambiarImagen('img/sabrina-II.png');"src="img/sabrina.png"  alt="sabrina">
-        <img class="img-cinta" onmouseover="intercambiarImagen('img/300-II.jpg');"src="img/300.png"  alt="300">
-        <img class="img-cinta" onmouseover="intercambiarImagen('img/free-II.jpg');"src="img/free.png" alt="free">
+        <img class="img-cinta" onmouseover ="intercambiarImagen('img/vikingos_II.jpg');
+         textov('VIKINGOS'); 
+         bodyi(' Serie lanzada el 25 de febrero de 2021; tiene un total de 250 capítulos en 3 temporadas, se espera la llegada de una 4 tempoprada el 28 de Mayo del 2022.  Fue acreedor de un premio Oscar a mejor serie en 2021.');"src="img/vikingos.png" id="vikingo">
+        <img class="img-cinta" onmouseover="intercambiarImagen('img/elite_II.jpg'); 
+        textov('ELITE'); 
+        bodyi('Serie lanzada el 03 de Agosto de 2019; tiene un total de 420 capítulos en 4 temporadas. Fue acreedora de un premio Oscar a mejor serie en 2020.');" 
+        src="img/elite_II.png" id="elite">
+        <img class="img-cinta" onmouseover="intercambiarImagen('img/daredevil-II.jpg'); 
+        textov('DAREDEVIL'); 
+        bodyi('Serie lanzada el 16 de marzo de 2019 como adaptacion de la película ´daredevil´; tiene un total de 150 capítulos en 2 temporadas. Hasta el momento no ha recibido premios, a pesar de su gran elenco actoral y calidad visual.')" src="img/daredevil-II.png"  id="daredevil">
+        <img class="img-cinta" onmouseover="intercambiarImagen('img/king-richard-II.jpg'); 
+         textov('KING RICHARD'); 
+         bodyi('Película que se lanzo el 22 de Febrero de 2022, ha tenido gran audiencia desde su estreno y sigue estando entre las favoritas del publico.');" src="img/king-richard.png"  alt="king"> 
+        <img class="img-cinta" onmouseover="intercambiarImagen('img/sabrina-II.png'); 
+        textov('SABRINA'); 
+        bodyi('Serie lanzada el 20 de Septiembre de 2019, aclamada por el público por su historia que cada vez sorprende más. Tiene un total de 50 capítulos en 4 temporadas y desde su estreno sigue siendo una de las más exitosas.');"src="img/sabrina.png"  alt="sabrina">
+        <img class="img-cinta" onmouseover="intercambiarImagen('img/300-II.jpg'); 
+        textov('300, EL NACIMIENTO DE UN IMPERIO'); 
+        bodyi('Película que se lanzó el 18 de Noviembre de 2018, narra la historia de cómo 300 Espartanos enfrentan a un ejército de más de mil griegos en una de las batallas más épicas de la historia. Recibio un Oscar a mejores efectos visuales en 2019.');"src="img/300.png"  alt="300">
+        <img class="img-cinta" onmouseover="intercambiarImagen('img/free-II.jpg');
+         textov('FREE GUY'); 
+         bodyi('Película que narra la vida de un nft (personaje de un videojuego que no tiene vida propia) llamado Guy. Fue lanzada el 30 de Noviembre de 2021');"src="img/free.png" alt="free">
     </div>
     <script src="js/script.js"></script>
 </body>
