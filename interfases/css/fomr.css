@@ -1,0 +1,53 @@
+.btn {
+    border-radius: 3px;
+    display: inline-block;
+    padding: 20px 15px;
+    text-decoration: none;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.3);
+    box-shadow: 0 1px 1px rgba(0,0,0, 0.3);
+}
+.btn-green{
+    color: white;
+    background-color: lime;
+}
+.btn-green:hover{
+    background-color: rgb(2, 148, 2);
+}
+.btn-green:active{
+    background-color: rgb(10, 90, 10);
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    text-align: center;
+}
+body{
+    background-color: #18A383;
+}
+form{
+    
+    background-color: white;
+    border-radius: 4px;
+    padding: 20px;
+    color: #999;
+    margin: 0 auto;
+    width: 300px;
+}
+input,text{
+    outline: none;
+    border: 0;
+    width: 290px;
+
+}
+.field{
+    border: solid 1px ;
+    padding: 10px;
+    width: 268px;
+
+}
+.field:focus{
+    border-color:#18A383 ;
+}
+.center{
+    text-align: center;
+}
