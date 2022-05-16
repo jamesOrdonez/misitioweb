@@ -1,23 +1,26 @@
-function validarInfo(campo) {
-    let text1 = document.getElementById("Nombre");
-    let text2 = document.getElementById("Apellido");
-    let text3 = document.getElementById("numeroDocumento");
-    if(text1.value === "" || text2.value === "" || text3.value === ""){
-       alert("completa todos los campos");
+"use strict"
+
+function guardarInfo() {
+    let numeroDocumento = document.getElementById("numeroDocumento").value;
+    if (numeroDocumento == ""){
+        alert('Por favor, iingrese el número de documento.');
+        return false;
     }
+    if (document.getElementById("nombreUsuario").value =="") {
+        alert("Por favor, ingrese el nombre de usuario");
+        return false;
+    }
+    if(document.getElementById('direccionUsuario').value == "") {
+        alert('Por favor, ingrese la ubicación del usuario.');
+        return false;
+    }
+    alert('Informació guardada con éxito');
+    limpiarFormulario();
+    return true;
+
 }
 function limpiarFormulario() {
-    if (Nombre === " ") {
-        document = getElementById(Nombre);
-        return false;
-    }
-    if (Apellido === " ") {
-        document = getElementById(Apellido);
-        return false;
-    }
-    if (numeroDocumento === " ") {
-        document = getElementById(numeroDocumento);
-        return false;
-    }
-    return true;
+    document.getElementById('numeroDocumento').value = "";
+    document.getElementById('nombreUsuario').value = "";
+    document.getElementById('direccionUsuario').value = "";
 }

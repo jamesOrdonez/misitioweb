@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.main-content {
+    display: grid;
+    width: 100%;
+    background-color: gainsboro;
+    grid-template: "empty-top     empty-top      empty-top         empty-top" 70px
+                   "empty-izq     img-superbike      info-superbike        empty-der"    auto/
+                      50px          200px             300px          1fr;
+}
+.img-superbike {
+    grid-area: img-superbike;
+    display: grid;
+    width: 100%;
+}
+.info-superbike {
+    grid-area: info-superbike;
+    width: 100%;
+}
+.restarStock, .cantidadSuperbikes, .sumarStock {
+    font-size: 30px;
+    font-weight: 900;
+    cursor: pointer;
+}

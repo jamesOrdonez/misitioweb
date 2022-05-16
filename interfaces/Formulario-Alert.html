@@ -4,28 +4,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>formulario</title>
-    <script src="js/alert.js"></script>
-    <link rel="stylesheet" href="css/fomr.css">
+    <title>Validación de formulario</title>
 </head>
 <body>
-    
-     <form onsubmit="validarInfo('campo');">
-         
-        <h1>validacion del sistema</h1>
-        <br>
-         <p>Nombre</p>
-         <input type="text" class="field" id="Nombre">
-         <p>Apellido</p>
-         <input type="text" class="field" id="Apellido">
-         
-         <p>Numero de documento</p>
-         <input type="text" class="field" id="numeroDocumento">
-         <br><br
-         <p class="center">
-         <input type="submit" class="btn btn-green" value="Enviar">
-        </p>
-        <script>limpiarFormulario()</script>
-     </form>
+    <div>
+        <input type="text" name="" id="numeroDocumento" placeholder="Ingrese el número de documento."><br>
+        <input type="text" name="" id="nombreUsuario" placeholder="Ingrese el nombre del usuario."><br>
+        <input type="text" name="" id="direccionUsuario" placeholder="Ingrese la direcion del usuario."><br>
+        <input type="submit" value="Enviar" onclick="guardarInfo();">
+    </div>
+    <script src="js/alert.js"></script>
 </body>
 </html>
