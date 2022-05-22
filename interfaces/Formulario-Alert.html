@@ -7,12 +7,48 @@
     <title>Validación de formulario</title>
 </head>
 <body>
-    <div>
-        <input type="text" name="" id="numeroDocumento" placeholder="Ingrese el número de documento."><br>
-        <input type="text" name="" id="nombreUsuario" placeholder="Ingrese el nombre del usuario."><br>
-        <input type="text" name="" id="direccionUsuario" placeholder="Ingrese la direcion del usuario."><br>
-        <input type="submit" value="Enviar" onclick="guardarInfo();">
+    <div class="formulario">
+        <div class="frm">
+        <h2>Ingrese los datos del usuario</h2><br>
+        <input type="text" class="campo" id="numeroDocumento" placeholder="Ingrese el número de documento."><br>
+        <input type="text" class="campo" id="nombreUsuario" placeholder="Ingrese el nombre del usuario."><br>
+        <input type="text" class="campo" id="direccionUsuario" placeholder="Ingrese la direcion del usuario."><br>
+        <input type="submit" value="Enviar" class="enviar" onclick="guardarInfo();"> </div>
     </div>
     <script src="js/alert.js"></script>
+    <style type="text/css">
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        .formulario {
+            width: 100%;
+            height: 800px;
+            text-align: center;
+        }
+        .frm {
+            background-color: darkcyan;
+            width: 30%;
+            height: 250px;
+            margin-left: 35%;
+            border-radius: 30px;
+            color: white;
+        }
+        input {
+            background-color: whitesmoke;
+            padding: 7px;
+            border: 1px solid;
+            border-radius: 12px;
+            margin: 5px;
+            color: black;
+        }
+        h2 {
+            color: white;
+        }
+        .enviar {
+            background-color: darkcyan;
+            color: white;
+        }
+    </style>
 </body>
 </html>
