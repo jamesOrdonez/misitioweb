@@ -8,8 +8,8 @@
 </head>
 <body>
     <div class="main-content">
-        <div class="mostrarTotal"> Cop <label class="precio" id="costoTotal();"> 27'000.000</label> </div>
-        <div class="cantidadElemento">Proceder al pago<label id="cantidadSingularPlural"> (1 producto)</label> </div>
+        <div class="mostrarTotal"> Cop <label class="precio" id="costoTotal"> 9000000</label> </div>
+        <div class="cantidadElemento">Proceder al pago  (<label id="cantidadSingularPlural">  1 producto</label>) </div>
         <img class="img-superbike "  src="img/r1-750x600.png" alt="img-superbike">
         <div class="botonNumeros">
             <div id="restarStock" class="restarStock" onclick="pruebaResta();">-</div>
@@ -25,7 +25,7 @@
             Número de cilindros:  4<br>
             Numero de cambios:    6<br>
             Relación primaria.    67/41
-            </p><br> Cop <label class="precio" id="costoUnitario();"> 27'000.000</label><br>
+            </p><br> Cop <label class="precio" id="costoUnitario"> 9000000</label><br>
             <button class="button">Eliminar</button><br>
             <button class="button">Guardar para mas tarde</button>
         </div>
@@ -56,6 +56,9 @@
             width: 100%;
             padding-left: 20px;
             font-size: 0.8em;
+        }
+        .mostrarTotal {
+            height: 20px;
         }
         .botonNumeros {
             border: 1px solid black;

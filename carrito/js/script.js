@@ -1,15 +1,35 @@
 "use strict"
 
+let cantidadSuperbikeGlobal = document.getElementById("cantidadSuperbike").innerHTML;
+
 function pruebaSuma() {
-    let cantidadSuperbike = document.getElementById("cantidadSuperbike").innerHTML;
-    if (cantidadSuperbike < 10) { 
-    cantidadSuperbike = Number(cantidadSuperbike) + 1;
-    document.getElementById("cantidadSuperbike").innerHTML = cantidadSuperbike;
-}}
+    if (cantidadSuperbikeGlobal < 10) { 
+    cantidadSuperbikeGlobal = Number(cantidadSuperbikeGlobal) + 1;
+    document.getElementById("cantidadSuperbike").innerHTML = cantidadSuperbikeGlobal;
+    modificarTotal();
+    }
+}
 
 function pruebaResta() {
+    cantidadSuperbikeGlobal = document.getElementById("cantidadSuperbike").innerHTML;
+    if (cantidadSuperbikeGlobal > 0) { 
+    cantidadSuperbikeGlobal = Number(cantidadSuperbikeGlobal) - 1;
+    document.getElementById("cantidadSuperbike").innerHTML = cantidadSuperbikeGlobal;
+    modificarTotal();
+    }
+}
+function modificarTotal() {
     let cantidadSuperbike = document.getElementById("cantidadSuperbike").innerHTML;
-    if (cantidadSuperbike > 0) { 
-    cantidadSuperbike = Number(cantidadSuperbike) - 1;
-    document.getElementById("cantidadSuperbike").innerHTML = cantidadSuperbike;
-}}
+    if (cantidadSuperbike == "1") {
+        document.getElementById("cantidadSingularPlural").innerHTML = cantidadSuperbike + " producto";
+    }else {
+        document.getElementById("cantidadSingularPlural").innerHTML = cantidadSuperbike + " productos";
+    }
+    mostrarTotal();
+}
+
+function mostrarTotal(){
+    let costoUnitario = document.getElementById("costoUnitario").innerHTML;
+    let costoTotal = Number(costoUnitario) * Number(cantidadSuperbikeGlobal);
+    document.getElementById("costoTotal").innerHTML = costoTotal;
+}
