@@ -1,20 +1,20 @@
 
 class automovil{
-    constructor(marca,modelo,version,year,precio,kilometraje,ciudad,imagen){
+    constructor(marca,modelo,version,year,precio,ciudad,imagen){
         this.marca=marca;
         this.modelo=modelo;
         this.version=version;
         this.year=year;
         this.precio=precio;
-        this.kilometraje=kilometraje;
         this.ciudad=ciudad;
         this.imagen=imagen;
     }
 }
 
-let car1= new automovil("Nissan","Skyline","R-34","2015","220600000","500.000","Bogota","img/skyline.jpg");
-let car4= new automovil("Toyota","Supra","mk4","2018","128000000","220.000","Medellin","img/supra-4.jpg");
-let car3= new automovil("Mitsubishi ","eclipse","tunning","2017","130000000","500.000","Cali","img/eclipse.jpg");
+let car1= new automovil("Nissan","Skyline","R-34","2015","220600000","Bogota","img/skyline.jpg");
+let car2= new automovil("Toyota","Prado","tlx","2020","220000000","Bucaramanga","img/toyota.jpg");
+let car4= new automovil("Toyota","Supra","mk4","2018","128000000","Medellin","img/supra-4-ii.jpg");
+let car3= new automovil("Mitsubishi ","eclipse","tunning","2017","130000000","Cali","img/eclipse.jpg");
 
 function Busqueda(car){
     let contenedorPrincipal=document.getElementById("contenidoPrincipal");
@@ -25,7 +25,7 @@ function Busqueda(car){
     let img= document.createElement("img");
     img.setAttribute("src", car.imagen);
     img.setAttribute("class","img");
-    contenedorPrincipal.appendChild(img);
+    contimg.appendChild(img);
 
     let valorcar= document.createElement("label");
 
@@ -34,48 +34,42 @@ function Busqueda(car){
     let textValorCar= document.createTextNode("$" + precioFormat);
     valorcar.appendChild(textValorCar);
     valorcar.setAttribute("class","precio");
-    contenedorPrincipal.appendChild(valorcar);
+    contimg.appendChild(valorcar);
 
     let descripcion= document.createElement("label");
     let textdesccar=document.createTextNode(car.marca+" " +car.modelo+" "+ car.version);
     descripcion.appendChild(textdesccar);
     descripcion.setAttribute("class","descripcion");
 
-    contenedorPrincipal.appendChild(descripcion);
+    contimg.appendChild(descripcion);
 
     let yearcar=document.createElement("label");
     let textyear=document.createTextNode(car.year);
     yearcar.appendChild(textyear);
     yearcar.setAttribute("class","year");
-    contenedorPrincipal.appendChild(yearcar);
-
-    let kilometrajecar=document.createElement("label");
-    let textkilometraje=document.createTextNode(car.kilometraje+"km");
-    kilometrajecar.appendChild(textkilometraje);
-    kilometrajecar.setAttribute("class","kilometraje");
-    contenedorPrincipal.appendChild(kilometrajecar);
+    contimg.appendChild(yearcar);
 
     let city=document.createElement("label");
     let textcity=document.createTextNode(car.ciudad);
     city.appendChild(textcity);
     city.setAttribute("class","ciudad");
-    contenedorPrincipal.appendChild(city);
+    contimg.appendChild(city);
 }
 
 window.addEventListener("keydown",function(event){
     let Busq=document.getElementById("textBuscador").value;
     if(event.key=="Enter"){
-        console.log(Busq);
         cleanwindow();
         if(Busq=="nissan"){
-            Busqueda(car1);           
+            Busqueda(car1);       
         }
-        else if(Busq=="toyota"){
-            Busqueda(car4);
-        }
-        
         else if(Busq=="mitsubishi"){
             Busqueda(car3);
+        }
+        
+        else if(Busq=="toyota"){
+            Busqueda(car4);
+            Busqueda(car2);
         }
         else{
             alert("sin coincidencias");
