@@ -1,0 +1,29 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+
+}
+.head {
+	display: grid;
+	background-color: rgb(25, 0, 150);
+	width: 100%;
+	grid-template: "hamburguer-menu   empty   img" /
+	                     1fr            6fr    1fr;
+}
+.hamburguer-menu {
+	grid-area: hamburguer-menu;
+	color: white;
+	font-weight: 900;
+	font-size: 40px;
+	justify-content: right;
+	margin: 25px;
+}
+.img {
+	grid-area: img;
+	width: 70px;
+	height: 70px;
+	margin: 15px;
+
+}
